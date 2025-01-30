@@ -105,7 +105,6 @@ public class Game
     private void InitializeGame()
 {
     ClearConsole();
-    Console.WriteLine("Welcome to the Forest Adventure Game!");
     Console.Write("What is your name, adventurer? ");
     string? playerName = Console.ReadLine()?.Trim();
     if (string.IsNullOrEmpty(playerName)) playerName = "Adventurer";
